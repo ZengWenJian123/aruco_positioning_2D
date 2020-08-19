@@ -110,7 +110,7 @@ while True:
         cv2.putText(frame, 'distance:' + str(round(distance, 4)) + str('m'), (0, 110), font, 1, (0, 255, 0), 2,
                     cv2.LINE_AA)
 
-        ####真实坐标换算####
+        ####真实坐标换算####（to do）
         # print('rvec:',rvec,'tvec:',tvec)
         # # new_tvec=np.array([[-0.01361995],[-0.01003278],[0.62165339]])
         # # 将相机坐标转换为真实坐标
